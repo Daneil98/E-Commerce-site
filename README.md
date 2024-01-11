@@ -1,2 +1,1 @@
-This online shop has the essential functionalities of an e-commerce platform. 
-It enables clients to browse products, add them to the cart, apply discount codes, go through the checkout process, and pay with a credit card.
+An e-commerce web application that empowers users to effortlessly browse a diverse range of products, add items to their cart, and seamlessly complete transactions using the secure Braintree API for payment processing.
