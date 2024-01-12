@@ -28,7 +28,7 @@ CART_SESSION_ID = 'cart'
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-lbl3@(vd@zi$o*11)*r!@s+e^p_j2gq=86f^-qj!2=!$c+m^%v'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,9 +37,9 @@ ALLOWED_HOSTS = []
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Braintree settings
-BRAINTREE_MERCHANT_ID = '7cjb9ps9qdjghb3r' # Merchant ID
-BRAINTREE_PUBLIC_KEY = 'hb3pnb4z2cynj643' # Public Key
-BRAINTREE_PRIVATE_KEY = '432a3c033c4f019ff48b42cee0e54c07' # Private key
+BRAINTREE_MERCHANT_ID = '' # Merchant ID
+BRAINTREE_PUBLIC_KEY = '' # Public Key
+BRAINTREE_PRIVATE_KEY = '' # Private key
 
 BRAINTREE_CONF = braintree.Configuration(
     braintree.Environment.Sandbox,
